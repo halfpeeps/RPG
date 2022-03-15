@@ -1,7 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"obj_rpg_basic_player","path":"objects/obj_rpg_basic_player/obj_rpg_basic_player.yy",},"order":1,},
+    {"id":{"name":"spr_rpg_basic_player","path":"sprites/spr_rpg_basic_player/spr_rpg_basic_player.yy",},"order":1,},
     {"id":{"name":"Hello World","path":"notes/Hello World/Hello World.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_rpg_basic_wall","path":"sprites/spr_rpg_basic_wall/spr_rpg_basic_wall.yy",},"order":0,},
+    {"id":{"name":"obj_rpg_basic_wall","path":"objects/obj_rpg_basic_wall/obj_rpg_basic_wall.yy",},"order":0,},
+    {"id":{"name":"rm_basic","path":"rooms/rm_basic/rm_basic.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -17,7 +21,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_basic","path":"rooms/rm_basic/rm_basic.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

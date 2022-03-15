@@ -13,7 +13,7 @@ key_dir = point_direction(0,0,key_hor,key_vert);
  
 ///Collisions and Movement
 ///Horizontal (X)
-if place_meeting(x+(sign(key_hor)*8),y,obj_obj_par_collision){
+if place_meeting(x+(sign(key_hor)*8),y,obj_par_collision){
  
     while !place_meeting(x+(sign(key_hor)*4),y,obj_par_collision){
         x += key_hor;
